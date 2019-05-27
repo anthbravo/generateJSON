@@ -15,9 +15,12 @@ function loadAndWriteCP(CAPITAL_CODE){
         
     });
 
-    var json = JSON.stringify(newDataset);
-
-    fs.writeFileSync('resource/CP/CP_DISTRITOS.json', json, 'utf8');
+    fs.writeFileSync('resource/CP/CP_DISTRITOS.json', JSON.stringify(newDataset), 'utf8');
 }
-
+/**
+ * 0 RESTANTES
+ * 1 CAPITALES
+ * 2 PROVINCIAS
+ * 3 DISTRITOS
+ */
 loadAndWriteCP("3");
