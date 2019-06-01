@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/anthbravo/generateJSON/issues"
   },
-  "homepage": "https://github.com/anthbravo/generateJSON#readme"
+  "homepage": "https://github.com/anthbravo/generateJSON#readme",
+  "dependencies": {
+    "geopoint": "^1.0.1"
+  }
 }
